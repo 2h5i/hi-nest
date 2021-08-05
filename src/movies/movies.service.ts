@@ -16,6 +16,7 @@ export class MoviesService {
     if (!movie) {
       throw new NotFoundException(`Movie with ID ${id} not found`);
     }
+
     return movie;
   }
 
